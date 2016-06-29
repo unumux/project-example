@@ -1,9 +1,11 @@
 {
-    "private": true,
-    "devDependencies": {
-        "@unumux/ux-build-tools": "^3.3.0"
-    },
-    "scripts": {
-        "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=."
-    }
+  "private": true,
+  "devDependencies": {
+    "@unumux/colonial-branding-alpha": "git+http://github.com/unumux/colonial-branding-alpha.git",
+    "@unumux/theme-enterprise-high-contrast": "git+http://github.com/unumux/theme-enterprise-high-contrast.git",
+    "@unumux/ux-build-tools": "^3.3.0"
+  },
+  "scripts": {
+    "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=."
+  }
 }

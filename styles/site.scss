@@ -1,0 +1,14 @@
+// import structure for all components
+@import "../node_modules/@unumux/theme-enterprise-high-contrast/_index.scss";
+@import "../node_modules/@unumux/colonial-branding-alpha/_index.scss";
+// anything that is visual and can be styled through a theme we don't want to style
+// it in colonial branding alpha unless it's a variable with the default flag on it.
+@import "./overrides";
+
+
+/* import structure for specific components*/
+// @import "../node_modules/@unumux/colonial-branding-alpha/base/_index.scss";
+// @import "../node_modules/@unumux/theme-high-contrast/_index.scss";
+// @import "../node_modules/@unumux/colonial-branding-alpha/components/button/_index.scss";
+// @import "../node_modules/@unumux/colonial-branding-alpha/components/header/_index.scss";
+// @import "./overrides";

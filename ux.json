@@ -5,8 +5,8 @@
             "node_modules/@unumux/colonial-branding-alpha/@(base|components|mixins)/**/_*.scss", 
             "node_modules/@unumux/colonial-branding-alpha/@(base|components|mixins)/**/_*.scss", 
             "node_modules/@unumux/colonial-branding-alpha/_*.scss",
-            "node_modules/theme-enterprise-high-contrast/@(base-elements|colors|fonts)/**/_*.scss",
-            "node_modules/theme-enterprise-high-contrast/_*.scss"            
+            "node_modules/@unumux/theme-enterprise-high-contrast/@(base-elements|colors|fonts)/**/_*.scss",
+            "node_modules/@unumux/theme-enterprise-high-contrast/_*.scss"            
         ],
         "dest": "styles"
     },

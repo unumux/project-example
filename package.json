@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "@unumux/colonial-branding-alpha": "git+http://github.com/unumux/colonial-branding-alpha.git",
+    "@unumux/components": "git+http://github.com/unumux/components.git",
     "@unumux/theme-enterprise-high-contrast": "git+http://github.com/unumux/theme-enterprise-high-contrast.git",
     "@unumux/ux-build-tools": "^3.3.0"
   },

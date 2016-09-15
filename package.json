@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "./components": "git+http://github.com/unumux/components.git",
+    "@unumux/components": "git+http://github.com/unumux/components.git",
     "@unumux/theme-enterprise-high-contrast": "git+http://github.com/unumux/theme-enterprise-high-contrast.git",
     "@unumux/ux-build-tools": "3.4.0"
   },

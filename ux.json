@@ -1,12 +1,11 @@
 {
     "scss": {
         "src": [
-            "styles/**/*.scss",             
-            "node_modules/@unumux/colonial-branding-alpha/@(base|components|mixins)/**/_*.scss", 
-            "node_modules/@unumux/colonial-branding-alpha/@(base|components|mixins)/**/_*.scss", 
-            "node_modules/@unumux/colonial-branding-alpha/_*.scss",
+            "styles/**/*.scss",
+            "node_modules/@unumux/components/@(base|components|mixins)/**/_*.scss",
+            "node_modules/@unumux/components/_*.scss",
             "node_modules/@unumux/theme-enterprise-high-contrast/@(base-elements|colors|fonts)/**/_*.scss",
-            "node_modules/@unumux/theme-enterprise-high-contrast/_*.scss"            
+            "node_modules/@unumux/theme-enterprise-high-contrast/_*.scss"
         ],
         "dest": "styles"
     },

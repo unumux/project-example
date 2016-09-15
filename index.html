@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 </head>
 <body class="va-debug">
+    <h1 class="presentation-only">Site Headers</h1>
     <section class="main-header">
-        <div class="main-header__branding">LOGO</div>
+        <div class="main-header__branding"><img src="http://placehold.it/150x150"></div>
         <div class="main-header__content">
             <nav class="main-nav">
                 <ul>
@@ -19,19 +20,24 @@
                 </ul>
             </nav>
         </div>
-        <div class="main-header__callout"><a href="#" class="button">Donate!</a></div>
+        <div class="main-header__callout"><a href="#" class="button">Learn More</a></div>
     </section>
 
-    <header class="main-header">
-        <div class="main-header__branding--cooler">
-            <i class="fa fa-pied-piper"></i>
-        </div>
+    <header class="main-header--accent">
         <div class="main-header__content">
-            <h1>Main Header</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim adipisci quo, cum, consequatur aliquam. Eligendi officiis omnis neque ipsa illum, blanditiis praesentium facilis perferendis suscipit laboriosam. Dolorem, accusamus, quasi.</p>
+            <nav class="main-nav--accent">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+        <div class="main-header__callout"><a href="#" class="button--negative"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Action Needed</a></div>
+        <div class="main-header__branding"><i class="fa fa-pied-piper"></i></div>        
     </header>
-
+<!--
     <header class="main-header--accent">
         <div class="main-header__branding--cooler">
             <i class="fa fa-pied-piper"></i>
@@ -40,9 +46,9 @@
             <h1>Main Header Accent</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus deserunt veritatis quis, numquam dolore omnis at reprehenderit in! Eveniet dolorum id, est, sint veritatis ducimus cumque quas molestiae velit omnis!</p>
         </div>
-    </header>
+    </header>-->
 
-    <header class="main-header--positive">
+    <!--<header class="main-header--positive">
         <div class="main-header__branding--cooler">
             <i class="fa fa-pied-piper"></i>
         </div>
@@ -50,9 +56,9 @@
             <h1>Main Header Accent</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus deserunt veritatis quis, numquam dolore omnis at reprehenderit in! Eveniet dolorum id, est, sint veritatis ducimus cumque quas molestiae velit omnis!</p>
         </div>
-    </header>
+    </header>-->
 
-    <header class="main-header--error">
+    <!--<header class="main-header--error">
         <div class="main-header--error__branding">
             <i class="fa fa-pied-piper"></i>
         </div>
@@ -60,11 +66,10 @@
             <h1>Main Header Error</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aperiam culpa quo vero voluptatibus rem doloribus nulla praesentium ea. Earum commodi ducimus eum harum? Minus ut necessitatibus quasi a ducimus.</p>
         </div>
-    </header>
-
-    <div>
-        <h1>Buttons</h1>
-        <p>with anchor tags</p>
+    </header>-->
+    <h1 class="presentation-only">Buttons</h1>
+    <div class="sub-presentation">
+        <h2>with anchor tags</h2>
         <a href="#" class="button" role="button" data-anchor-button="true">Neutral</a>
         <a href="#" class="button--primary" role="button" data-anchor-button="true">Primary</a>
         <a href="#" class="button" data-disabled="true" role="button" data-anchor-button="true">Disabled</a>
@@ -72,9 +77,8 @@
         <a href="#" class="button--negative" role="button" data-anchor-button="true">Negative</a>
     </div>
 
-    <div>
-        <h1>Buttons</h1>
-        <p>with button tags</p>
+    <div class="sub-presentation">
+        <h2>with button tags</h2>
         <button class="button" name="button">Neutral</button>
         <button class="button--primary" name="button">Primary</button>
         <button class="button" name="button" data-disabled="true">Disabled</button>
@@ -82,6 +86,7 @@
         <button class="button--negative" name="button">Negative</button>
     </div>
 
+    <h1 class="presentation-only">Diaglogues</h1>
     <div class="dialogue">
         <div class="dialogue__content">
             <h1>Dialogue Heading</h1>

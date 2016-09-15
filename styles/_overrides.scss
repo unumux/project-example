@@ -1,3 +1,21 @@
 body {
    // @include debug-vertical-alignment(); 
 }
+
+.presentation-only {
+    background-color: #555555;
+    color: #eeeeee;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;    
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
+
+.sub-presentation {
+    margin: 40px 10px;
+}

@@ -5,6 +5,7 @@ body {
 .presentation-only {
     background-color: #555555;
     color: #eeeeee;
+    font-size: 2em;
     padding: 10px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;    
@@ -18,8 +19,19 @@ body {
 
 .sub-presentation {
     margin: 0 20px 40px;
-}
 
-// h2 {
-//     margin-top: 0;
-// }
+    h2 {
+        font-size: 1.95em;
+        color: #555;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1000px;
+    }
+}

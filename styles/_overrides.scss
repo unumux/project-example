@@ -5,11 +5,11 @@ body {
 .presentation-only {
     background-color: #555555;
     color: #eeeeee;
-    padding: 20px;
+    padding: 10px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;    
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
     &:first-of-type {
         margin-top: 0;
@@ -17,5 +17,9 @@ body {
 }
 
 .sub-presentation {
-    margin: 40px 10px;
+    margin: 0 20px 40px;
 }
+
+// h2 {
+//     margin-top: 0;
+// }

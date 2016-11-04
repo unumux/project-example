@@ -276,28 +276,39 @@
     </div>
 -->
 
-    <h1 class="presentation-only">Diaglogues</h1>
-    <div class="dialogue">
-        <div class="dialogue__content">
-            <h1>Dialogue Heading</h1>
+    <h1 class="presentation-only">Dialogs</h1>
+    <section class="dialog" data-modal-visible="false" role="dialog">
+        <h1 class="dialog__heading">Modal</h1>
+        <div class="dialog__content ">
+            <p>Any HTML you want goes here!</p>
+        </div>
+        <ul class="dialog__action-list">
+            <li class="dialog__action"><button class="button--positive">Positive</button></li>
+            <li class="dialog__action"><button class="button--negative">Negative</button></li>
+        </ul>
+    </section>
+    
+    <div class="dialog">
+        <div class="dialog__content">
+            <h1>Modal Heading</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quasi provident beatae vel accusantium hic, ab illo veniam suscipit repellendus deleniti. Cumque, placeat, ratione. Voluptas non dolores tempora, neque veritatis!</p>
         </div>
-        <div class="dialogue__feedback-actions">
+        <div class="dialog__feedback-actions">
             <button>Neutral</button>
             <button class="button--primary">Primary</button>
         </div>
     </div>
 
-    <div class="dialogue">
-        <div class="dialogue__content">
-            <h1 class="dialogue__content--accented">Dialogue Heading</h1>
+    <div class="dialog">
+        <div class="dialog__content">
+            <h1 class="dialog__content--accented">Modal Heading</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quasi provident beatae vel accusantium hic, ab illo veniam suscipit repellendus deleniti. Cumque, placeat, ratione. Voluptas non dolores tempora, neque veritatis!</p>
         </div>
-        <div class="dialogue__feedback">
-            <div class="dialogue__feedback-content--negative">
+        <div class="dialog__feedback">
+            <div class="dialog__feedback-content--negative">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia expedita, incidunt provident modi odit laboriosam ullam doloribus et dolores culpa vero enim aperiam obcaecati iure aliquid eos libero totam iusto.</p>
             </div>
-            <div class="dialogue__feedback-actions">
+            <div class="dialog__feedback-actions">
                 <button>Neutral</button>
                 <button class="button--negative">Negative</button>
             </div>

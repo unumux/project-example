@@ -11,12 +11,12 @@
     <section class="main-header">
         <div class="main-header__branding"><img src="http://placehold.it/150x150"></div>
         <div class="main-header__content">
-            <nav class="main-nav">
+            <nav class="primary-nav--demo">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Things</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="primary-nav__item"><a href="#">About</a></li>
+                    <li class="primary-nav__item"><a href="#">Portfolio</a></li>
+                    <li class="primary-nav__item"><a href="#">Things</a></li>
+                    <li class="primary-nav__item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,12 +25,12 @@
 
     <header class="main-header--accent">
         <div class="main-header__content">
-            <nav class="main-nav--accent">
+            <nav class="primary-nav--demo--accent">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Things</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="primary-nav__item"><a href="#">About</a></li>
+                    <li class="primary-nav__item"><a href="#">Portfolio</a></li>
+                    <li class="primary-nav__item"><a href="#">Things</a></li>
+                    <li class="primary-nav__item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,20 +39,22 @@
     </header>
 
     <header class="main-header--inverse">
-        <div class="main-header__branding"><img src="https://www.fillmurray.com/200/100"></div>
-        <div class="main-header__content">
-            <nav class="main-nav--inverse" role="navigation" aria-label="Main Navigaton">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Things</a></li>
-                    <li><a href="#">Contact</a></li>
+        <div class="main-header--inverse__branding"><img src="https://www.fillmurray.com/200/100"></div>
+        <div class="main-header--inverse__content">
+            <nav class="primary-nav--demo--inverse" role="navigation" aria-label="Main Navigaton">
+                <ul class="primary-nav__list">
+                    <li class="primary-nav__item"><a href="#">About</a></li>
+                    <li class="primary-nav__item"><a href="#">Portfolio</a></li>
+                    <li class="primary-nav__item"><a href="#">Things</a></li>
+                    <li class="primary-nav__item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="main-header__content">
-            <nav class="secondary-nav" role="navigation" aria-label="Account Navigation">
+        <div class="main-header--inverse__content">
+            <nav class="secondary-nav--demo" role="navigation" aria-label="Account Navigation">
                 <ul class="secondary-nav__list">
+                    <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Login</a></li>
+                    <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Register</a></li>
                     <li class="secondary-nav__item">
                         <div class="search">
                             <label class="search__label" for="search-input">Search</label>
@@ -60,8 +62,6 @@
                             <button class="search__button">Search</button>
                         </div>
                     </li>
-                    <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Login</a></li>
-                    <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Register</a></li>
                 </ul>
             </nav>
         </div>
@@ -70,102 +70,66 @@
     <h1 class="presentation-only">Navigations</h1>
     <div class="sub-presentation">
         <nav class="primary-nav" role="navigation" aria-label="Primary Navigation">
-            <h1 class="primary-nav__heading">
-                Primary Nav
-            </h1>
+            <h1 class="primary-nav__heading">Primary Nav</h1>
             <ul class="primary-nav__list">
                 <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">
-                        Item 1
-                    </a>
+                    <a class="primary-nav__link" href="#">Item 1</a>
                 </li>
                 <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">
-                        Item 2
-                    </a>
+                    <a class="primary-nav__link" href="#">Item 2</a>
                 </li>
                 <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">
-                        Item 3
-                    </a>
+                    <a class="primary-nav__link" href="#">Item 3</a>
                 </li>
                 <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">
-                        Item 4
-                    </a>
+                    <a class="primary-nav__link" href="#">Item 4</a>
                 </li>
             </ul>
         </nav>
     </div>
     <div class="sub-presentation">
         <nav class="secondary-nav" role="navigation" aria-label="Secondary Navigation">
-            <h1 class="secondary-nav__heading">
-                Secondary Nav
-            </h1>
+            <h1 class="secondary-nav__heading">Secondary Nav</h1>
             <ul class="secondary-nav__list">
                 <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">
-                        Secondary Item 1
-                    </a>
+                    <a class="secondary-nav__link" href="#">Secondary Item 1</a>
                 </li>
                 <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">
-                        Secondary Item 2
-                    </a>
+                    <a class="secondary-nav__link" href="#">Secondary Item 2</a>
                 </li>
                 <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">
-                        Secondary Item 3
-                    </a>
+                    <a class="secondary-nav__link" href="#">Secondary Item 3</a>
                 </li>
                 <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">
-                        Secondary Item 4
-                    </a>
+                    <a class="secondary-nav__link" href="#">Secondary Item 4</a>
                 </li>
             </ul>
         </nav>
     </div>
     <div class="sub-presentation">
         <nav class="footer-nav" role="navigation" aria-label="Footer Navigation">
-            <h1 class="footer-nav__heading">
-                Footer Nav
-            </h1>
+            <h1 class="footer-nav__heading">Footer Nav</h1>
             <ul class="footer-nav__list">
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 1
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 1</a>
                 </li>
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 2
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 2</a>
                 </li>
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 3
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 3</a>
                 </li>
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 4
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 4</a>
                 </li>
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 5
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 5</a>
                 </li>
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 6
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 6</a>
                 </li>
                 <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">
-                        Footer Item 7
-                    </a>
+                    <a class="footer-nav__link" href="#">Footer Item 7</a>
                 </li>
             </ul>
         </nav>
@@ -219,7 +183,7 @@
         <a href="#" class="button-with-icon--negative"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--negative__icon"/></a> 
     </div>
 
-    <div class="sub-presentation">
+    <!--<div class="sub-presentation">
         <h2>Non-meaningful Images</h2>
         <h3>with button tags</h3>
         <button class="button-with-icon">Neutral</button> 
@@ -234,45 +198,7 @@
         <a href="#" class="button-with-icon" data-disabled="true">Disabled</a> 
         <a href="#" class="button-with-icon--positive">Positive</a> 
         <a href="#" class="button-with-icon--negative">Negative</a> 
-    </div>
-
-
-
-
-
-<!--
-
-    <div class="sub-presentation">
-        <h2>with anchor tags</h2> 
-        <h3>non-meaningful images</h3> 
-        <a href="#" class="button button-with-icon" data-anchor-button="true"><img src="http://fillmurray.com/25/25" alt=" " class="button-with-icon__icon"/>Neutral</a> 
-        <a href="#" class="button button-with-icon--primary" data-anchor-button="true"><img src="http://fillmurray.com/25/25" alt="Image for Primary button" class="button-with-icon--primary__icon"/>Primary</a> 
-        <a href="#" class="button button-with-icon" data-anchor-button="true"><img src="http://fillmurray.com/25/25" alt=" " class="button-with-icon__icon"/>Disabled</a> 
-        <a href="#" class="button button-with-icon--positive" data-anchor-button="true"><img src="http://fillmurray.com/25/25" alt=" " class="button-with-icon--positive__icon"/>Positive</a> 
-        <a href="#" class="button button-with-icon--negative" data-anchor-button="true"><img src="http://fillmurray.com/25/25" alt=" " class="button-with-icon--negative__icon"/>Negative</a> 
-        <h3>meaningful images</h3> 
-        <a href="#" class="button button-with-icon"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon__icon"/></a> 
-        <a href="#" class="button button-with-icon--primary"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--primary__icon"/></a> 
-        <a href="#" class="button button-with-icon" data-disabled="true"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon__icon"/></a> 
-        <a href="#" class="button button-with-icon--positive"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--positive__icon"/></a> 
-        <a href="#" class="button button-with-icon--negative"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--negative__icon"/></a> 
-    </div> 
-    <div class="sub-presentation"> 
-        <h2>with button tags</h2> 
-        <h3>non-meaningful images</h3> 
-        <button class="button button-with-icon"><img src="https://placekitten.com/25/25" alt=" " class="button-with-icon__icon"/>Neutral</button> 
-        <button class="button button-with-icon--primary"><img src="https://placekitten.com/25/25" alt="" class="button-with-icon--primary__icon"/>Primary</button> 
-        <button class="button button-with-icon" data-disabled="true"><img src="https://placekitten.com/25/25" alt=" " class="button-with-icon__icon"/>Disabled</button> 
-        <button class="button button-with-icon--positive"><img src="https://placekitten.com/25/25" alt=" " class="button-with-icon--positive__icon"/>Positive</button> 
-        <button class="button button-with-icon--negative"><img src="https://placekitten.com/25/25" alt=" " class="button-with-icon--negative__icon"/>Negative</button> 
-        <h3>meaningful images</h3> 
-        <button class="button button-with-icon"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon__icon"/></button> 
-        <button class="button button-with-icon--primary"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--primary__icon"/></button> 
-        <button class="button button-with-icon" data-disabled="true"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon__icon"/></button> 
-        <button class="button button-with-icon--positive"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--positive__icon"/></button> 
-        <button class="button button-with-icon--negative"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--negative__icon"/></button> 
-    </div>
--->
+    </div>-->
 
     <h1 class="presentation-only">Dialogs</h1>
     <section class="dialog" data-modal-visible="false" role="dialog">

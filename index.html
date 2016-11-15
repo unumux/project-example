@@ -11,12 +11,12 @@
     <section class="main-header">
         <div class="main-header__branding"><img src="http://placehold.it/150x150"></div>
         <div class="main-header__content">
-            <nav class="primary-nav--demo">
-                <ul>
-                    <li class="primary-nav__item"><a href="#">About</a></li>
-                    <li class="primary-nav__item"><a href="#">Portfolio</a></li>
-                    <li class="primary-nav__item"><a href="#">Things</a></li>
-                    <li class="primary-nav__item"><a href="#">Contact</a></li>
+            <nav class="primary-nav">
+                <ul class="primary-nav__list">
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">About</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Portfolio</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Things</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,12 +25,12 @@
 
     <header class="main-header--accent">
         <div class="main-header__content">
-            <nav class="primary-nav--demo--accent">
-                <ul>
-                    <li class="primary-nav__item"><a href="#">About</a></li>
-                    <li class="primary-nav__item"><a href="#">Portfolio</a></li>
-                    <li class="primary-nav__item"><a href="#">Things</a></li>
-                    <li class="primary-nav__item"><a href="#">Contact</a></li>
+            <nav class="primary-nav--accent">
+                <ul class="primary-nav__list">
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">About</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Portfolio</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Things</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,12 +41,12 @@
     <header class="main-header--inverse">
         <div class="main-header--inverse__branding"><img src="https://www.fillmurray.com/200/100"></div>
         <div class="main-header--inverse__content">
-            <nav class="primary-nav--demo--inverse" role="navigation" aria-label="Main Navigaton">
+            <nav class="primary-nav" role="navigation" aria-label="Main Navigaton">
                 <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a href="#">About</a></li>
-                    <li class="primary-nav__item"><a href="#">Portfolio</a></li>
-                    <li class="primary-nav__item"><a href="#">Things</a></li>
-                    <li class="primary-nav__item"><a href="#">Contact</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">About</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Portfolio</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Things</a></li>
+                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -70,20 +70,12 @@
     <h1 class="presentation-only">Navigations</h1>
     <div class="sub-presentation">
         <nav class="primary-nav" role="navigation" aria-label="Primary Navigation">
-            <h1 class="primary-nav__heading">Primary Nav</h1>
+            <h1 class="primary-nav__heading--sr">Primary Nav</h1>
             <ul class="primary-nav__list">
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">Item 1</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">Item 2</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">Item 3</a>
-                </li>
-                <li class="primary-nav__item">
-                    <a class="primary-nav__link" href="#">Item 4</a>
-                </li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="#">Item 1</a></li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="#">Item 2</a></li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="#">Item 3</a></li>
+                <li class="primary-nav__item"><a class="primary-nav__link" href="#">Item 4</a></li>
             </ul>
         </nav>
     </div>
@@ -91,18 +83,10 @@
         <nav class="secondary-nav" role="navigation" aria-label="Secondary Navigation">
             <h1 class="secondary-nav__heading">Secondary Nav</h1>
             <ul class="secondary-nav__list">
-                <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">Secondary Item 1</a>
-                </li>
-                <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">Secondary Item 2</a>
-                </li>
-                <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">Secondary Item 3</a>
-                </li>
-                <li class="secondary-nav__item">
-                    <a class="secondary-nav__link" href="#">Secondary Item 4</a>
-                </li>
+                <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Secondary Item 1</a></li>
+                <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Secondary Item 2</a></li>
+                <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Secondary Item 3</a></li>
+                <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Secondary Item 4</a></li>
             </ul>
         </nav>
     </div>
@@ -110,27 +94,13 @@
         <nav class="footer-nav" role="navigation" aria-label="Footer Navigation">
             <h1 class="footer-nav__heading">Footer Nav</h1>
             <ul class="footer-nav__list">
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 1</a>
-                </li>
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 2</a>
-                </li>
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 3</a>
-                </li>
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 4</a>
-                </li>
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 5</a>
-                </li>
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 6</a>
-                </li>
-                <li class="footer-nav__item">
-                    <a class="footer-nav__link" href="#">Footer Item 7</a>
-                </li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 1</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 2</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 3</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 4</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 5</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 6</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 7</a></li>
             </ul>
         </nav>
     </div>

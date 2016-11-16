@@ -7,65 +7,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 </head>
 <body class="va-debug">
-    <h1 class="presentation-only">Site Headers</h1>
-    <section class="main-header">
-        <div class="main-header__branding"><img src="http://placehold.it/150x150"></div>
-        <div class="main-header__content">
-            <nav class="primary-nav">
-                <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">About</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Portfolio</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Things</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="main-header__callout"><a href="#" class="button">Learn More</a></div>
-    </section>
 
-    <header class="main-header--accent">
-        <div class="main-header__content">
-            <nav class="primary-nav--accent">
+    <header class="page-header" role="banner">
+        <div class="page-header__branding"><a class="logo-link" href="/" title="go to home page"><img class="logo-link__image" src="http://placehold.it/100x50" alt="logo image"></a></div>
+        <div class="page-header__navigation">
+            <nav class="primary-nav" role="navigation">
                 <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">About</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Portfolio</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Things</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Contact</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">About</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Portfolio</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Things</a></li>
+                    <li class="primary-nav__item"><a class="primary-nav__link" href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="main-header__callout"><a href="#" class="button--negative"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Action Needed</a></div>
-        <div class="main-header__branding"><i class="fa fa-pied-piper"></i></div>        
     </header>
 
-    <header class="main-header--inverse">
-        <div class="main-header--inverse__branding"><img src="https://www.fillmurray.com/200/100"></div>
-        <div class="main-header--inverse__content">
-            <nav class="primary-nav" role="navigation" aria-label="Main Navigaton">
-                <ul class="primary-nav__list">
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">About</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Portfolio</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Things</a></li>
-                    <li class="primary-nav__item"><a href="#" class="primary-nav__link">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="main-header--inverse__content">
-            <nav class="secondary-nav--demo" role="navigation" aria-label="Account Navigation">
-                <ul class="secondary-nav__list">
-                    <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Login</a></li>
-                    <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Register</a></li>
-                    <li class="secondary-nav__item">
-                        <div class="search">
-                            <label class="search__label" for="search-input">Search</label>
-                            <input class="search__input" type="text" id="search-input">
-                            <button class="search__button">Search</button>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>  
+
+
+
+
+
+
+<!--
+
 
     <h1 class="presentation-only">Navigations</h1>
     <div class="sub-presentation">
@@ -81,7 +45,7 @@
     </div>
     <div class="sub-presentation">
         <nav class="secondary-nav" role="navigation" aria-label="Secondary Navigation">
-            <h1 class="secondary-nav__heading">Secondary Nav</h1>
+            <h1 class="secondary-nav__heading--sr">Secondary Nav</h1>
             <ul class="secondary-nav__list">
                 <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Secondary Item 1</a></li>
                 <li class="secondary-nav__item"><a class="secondary-nav__link" href="#">Secondary Item 2</a></li>
@@ -92,7 +56,7 @@
     </div>
     <div class="sub-presentation">
         <nav class="footer-nav" role="navigation" aria-label="Footer Navigation">
-            <h1 class="footer-nav__heading">Footer Nav</h1>
+            <h1 class="footer-nav__heading--sr">Footer Nav</h1>
             <ul class="footer-nav__list">
                 <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 1</a></li>
                 <li class="footer-nav__item"><a class="footer-nav__link" href="#">Footer Item 2</a></li>
@@ -106,7 +70,7 @@
     </div>
     <div class="sub-presentation">
         <nav class="breadcrumbs" role="navigation" aria-labeledby="breadcrumbs__heading">
-            <h1 id="breadcrumbs__heading" role="presentation">You are here:</h1>
+            <h1 class="breadcrumbs__heading--sr" id="breadcrumbs__heading" role="presentation">You are here:</h1>
             <ol>
                 <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Home</a></li>
                 <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Page 2</a></li>
@@ -151,7 +115,7 @@
         <a href="#" class="button-with-icon" data-disabled="true"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon__icon"/></a> 
         <a href="#" class="button-with-icon--positive"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--positive__icon"/></a> 
         <a href="#" class="button-with-icon--negative"><img src="http://buynear.me/static/arrow-right-white-outline.png" alt="Save and Continue Arrow Image" class="button-with-icon--negative__icon"/></a> 
-    </div>
+    </div> -->
 
     <!--<div class="sub-presentation">
         <h2>Non-meaningful Images</h2>
@@ -170,7 +134,7 @@
         <a href="#" class="button-with-icon--negative">Negative</a> 
     </div>-->
 
-    <h1 class="presentation-only">Dialogs</h1>
+    <!--<h1 class="presentation-only">Dialogs</h1>
     <section class="dialog" data-modal-visible="false" role="dialog">
         <h1 class="dialog__heading">Modal</h1>
         <div class="dialog__content ">
@@ -208,7 +172,7 @@
             </div>
         </div>
     </div>
-
+-->
     <script src="scripts/site.min.js"></script>
 </body>
 </html>
